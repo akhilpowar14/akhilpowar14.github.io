@@ -3,10 +3,8 @@ layout: post
 title:  "Titanic Data"
 date:   2025-10-08
 category: Data-Science
-icon: www
 keywords: machine learning, pandas, sklearn, titanic
 author: Akhil Powar
-preview: 1
 ---
 # import library
 import pandas as pd
@@ -146,6 +144,7 @@ plt.figure(figsize=(6, 4))
 sns.barplot(x='Importance', y='Feature', data=importance_df1)
 plt.title('Feature Importance')
 plt.show()
+
 
 
 
